@@ -28,7 +28,8 @@ Constraints:
 s consists only of printable ASCII characters.
 """
 
-def isPalindrome(self, s: str) -> bool:
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
         l = 0
         r = len(s) - 1
         while l < r:
